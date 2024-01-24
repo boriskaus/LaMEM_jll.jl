@@ -29,7 +29,6 @@ The following JLL packages are required by `LaMEM_jll.jl`:
 * `MicrosoftMPI_jll`
 * `OpenMPI_jll`
 * `PETSc_jll`
-* `SuiteSparse_jll`
 
 ## Products
 
