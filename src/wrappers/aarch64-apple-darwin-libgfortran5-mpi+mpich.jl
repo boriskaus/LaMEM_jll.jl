@@ -2,13 +2,14 @@
 export LaMEM, LaMEMLib
 
 using PETSc_jll
+using SuiteSparse_jll
 using CompilerSupportLibraries_jll
 using MPICH_jll
 JLLWrappers.@generate_wrapper_header("LaMEM")
 JLLWrappers.@declare_library_product(LaMEMLib, "@rpath/LaMEMLib.dylib")
 JLLWrappers.@declare_executable_product(LaMEM)
 function __init__()
-    JLLWrappers.@generate_init_header(PETSc_jll, CompilerSupportLibraries_jll, MPICH_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(PETSc_jll, SuiteSparse_jll, CompilerSupportLibraries_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         LaMEMLib,
         "lib/LaMEMLib.dylib",
