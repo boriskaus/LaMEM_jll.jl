@@ -1,6 +1,6 @@
 name = "LaMEM_jll"
 uuid = "15d6fa20-f789-5486-b71b-22b4ac8eb1c1"
-version = "2.1.4+0"
+version = "2.1.4+1"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
