@@ -10,7 +10,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `LaMEM_jll.jl` have been built from these sources:
 
-* git repository: https://github.com/UniMainzGeo/LaMEM (revision: `3a59f8d6bae2f24d6ee9b5be2a535a7f62af3921`)
+* git repository: https://github.com/UniMainzGeo/LaMEM (revision: `692c63cf1c1113fe9d441ef6114568387d45edb0`)
 
 ## Platforms
 
