@@ -3,16 +3,17 @@ export LaMEM, LaMEMLib
 
 using PETSc_jll
 using CompilerSupportLibraries_jll
+using SCALAPACK32_jll
 using MicrosoftMPI_jll
 JLLWrappers.@generate_wrapper_header("LaMEM")
 JLLWrappers.@declare_library_product(LaMEMLib, "LaMEMLib.dll")
 JLLWrappers.@declare_executable_product(LaMEM)
 function __init__()
-    JLLWrappers.@generate_init_header(PETSc_jll, CompilerSupportLibraries_jll, MicrosoftMPI_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(PETSc_jll, CompilerSupportLibraries_jll, SCALAPACK32_jll, MicrosoftMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         LaMEMLib,
         "bin\\LaMEMLib.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_executable_product(

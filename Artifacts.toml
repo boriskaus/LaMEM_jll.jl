@@ -22,17 +22,6 @@ os = "macos"
     url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v2.1.4+1/LaMEM.v2.1.4.x86_64-apple-darwin-libgfortran4-mpi+mpich.tar.gz"
 [[LaMEM]]
 arch = "x86_64"
-git-tree-sha1 = "cbb4d83037a6b90cdc23f3e1073979da0ab826a5"
-lazy = true
-libgfortran_version = "5.0.0"
-mpi = "mpich"
-os = "macos"
-
-    [[LaMEM.download]]
-    sha256 = "c3e4ded7c9d24f093a0c9043dbe4c4363ef80b5bf2efc074af773bc72bfb4541"
-    url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v2.1.4+1/LaMEM.v2.1.4.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
-[[LaMEM]]
-arch = "x86_64"
 git-tree-sha1 = "341643ad728f484a3acd1f451881e703fd1a024e"
 lazy = true
 libc = "glibc"
@@ -45,18 +34,6 @@ os = "linux"
     url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v2.1.4+1/LaMEM.v2.1.4.x86_64-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
 [[LaMEM]]
 arch = "x86_64"
-git-tree-sha1 = "cd461744844630cc33fbd2e7a8e795b56651d039"
-lazy = true
-libc = "glibc"
-libgfortran_version = "5.0.0"
-mpi = "mpich"
-os = "linux"
-
-    [[LaMEM.download]]
-    sha256 = "cb5a373da6c97033c281d313c186dfd8450a77e18db0940cedc0ba20d2a5bc27"
-    url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v2.1.4+1/LaMEM.v2.1.4.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
-[[LaMEM]]
-arch = "x86_64"
 git-tree-sha1 = "859353d9363f5dc6d3800bbce6c60e592e42e5f1"
 lazy = true
 libgfortran_version = "4.0.0"
@@ -67,24 +44,43 @@ os = "windows"
     sha256 = "116efba152a654f617473b9f0182172ff5019056c40f6a798eeac7210278ee3f"
     url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v2.1.4+1/LaMEM.v2.1.4.x86_64-w64-mingw32-libgfortran4-mpi+microsoftmpi.tar.gz"
 [[LaMEM]]
-arch = "x86_64"
-git-tree-sha1 = "20b303dda90183cf5244c30051ea409a7fb2ec3e"
-lazy = true
-libgfortran_version = "5.0.0"
-mpi = "microsoftmpi"
-os = "windows"
-
-    [[LaMEM.download]]
-    sha256 = "6e00928334df2d1164b524b1a55a654601e586e1386d6db41aed4ac198c31a81"
-    url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v2.1.4+1/LaMEM.v2.1.4.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
-[[LaMEM]]
 arch = "aarch64"
-git-tree-sha1 = "00cfcbe9d05606c9b1297900afefda626ac21608"
-lazy = true
+git-tree-sha1 = "90df9e4c0b888ce28ac911c40e9a9e9744666681"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "macos"
 
     [[LaMEM.download]]
-    sha256 = "44e09e78d6b251fba474018a990bdc2af6256f6f6b207103951f8f3c74190341"
-    url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v2.2.0+1/LaMEM.v2.2.0.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+    sha256 = "606cc1707da9b5ee830fa872ea9d50d1c24640ecb19e728ddabbf2875c8a3105"
+    url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v3.1.0+0/LaMEM.v3.1.0.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "46ece460ae354b638ecdecceca80778fd7dcf060"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[LaMEM.download]]
+    sha256 = "d415e453b95d317124a6f86397261df347c8adba1149a596ffa6ba1b11ccb0ca"
+    url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v3.1.0+0/LaMEM.v3.1.0.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "37420f2dc37cc25d4108e80966e6e989de0a9b55"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "a4f298db5aa05f94bfd5cde7cad8cdc07b08869595e69ca0723de14245a6813e"
+    url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v3.1.0+0/LaMEM.v3.1.0.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "3f1aae99b4ef57f26c6b35a85ecd1fcbe55425cb"
+libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[LaMEM.download]]
+    sha256 = "90d65357c4a7ae26643d82901f387a33b77ac3fa772546ab74ee25879e46e14c"
+    url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v3.1.0+0/LaMEM.v3.1.0.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"

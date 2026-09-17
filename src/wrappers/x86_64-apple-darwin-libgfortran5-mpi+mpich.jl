@@ -12,7 +12,7 @@ function __init__()
     JLLWrappers.@init_library_product(
         LaMEMLib,
         "lib/LaMEMLib.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_executable_product(
