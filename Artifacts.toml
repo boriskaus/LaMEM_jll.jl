@@ -45,42 +45,42 @@ os = "windows"
     url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v2.1.4+1/LaMEM.v2.1.4.x86_64-w64-mingw32-libgfortran4-mpi+microsoftmpi.tar.gz"
 [[LaMEM]]
 arch = "aarch64"
-git-tree-sha1 = "6ce6e487b09ae9bc0a9bc865c9fd512088448286"
+git-tree-sha1 = "8c104828d66baaf4e2ca9b12719eaaf623c25af0"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "macos"
 
     [[LaMEM.download]]
-    sha256 = "92fa020f344add861b3219a3b1948a6ec51bcc5ad99041f511b7a8865edab194"
+    sha256 = "947295947a8d4a2bd4ae84f53d02b42509136fdff53f0fa9b941a9b9c96c2ea5"
     url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v3.3.0+0/LaMEM.v3.3.0.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
 [[LaMEM]]
 arch = "x86_64"
-git-tree-sha1 = "4cdd14d018da31b479d7cbde9215db082dc6246f"
+git-tree-sha1 = "152600a536cc8687284e17c705bd61644f956c82"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "macos"
 
     [[LaMEM.download]]
-    sha256 = "bdb088e2c69676e23160448aa39d7b8d4be7c64b8a59eedbf74bbc1cf7654faa"
+    sha256 = "80a0f9087b1b5d6f1f4a9e6d954ffe4efbf9af278f418486f0741e25d4a55cd9"
     url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v3.3.0+0/LaMEM.v3.3.0.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
 [[LaMEM]]
 arch = "x86_64"
-git-tree-sha1 = "c90ce53d873291a20beefe1e8ebf892756e91d5f"
+git-tree-sha1 = "af9a787a06b335cbed1d1122f24e26c4856728fd"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 mpi = "mpich"
 os = "linux"
 
     [[LaMEM.download]]
-    sha256 = "603b4840e5a0e33b57c81086b668cb1d6599e427378a42725a3ee195a048457b"
+    sha256 = "f64a673d2a0262f85d8bc17d943207e53a29f485800418c045768c2429705bf4"
     url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v3.3.0+0/LaMEM.v3.3.0.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
 [[LaMEM]]
 arch = "x86_64"
-git-tree-sha1 = "75d2defa10a19abf3a4437e09c14cc4876ab22af"
+git-tree-sha1 = "4cf912e223a31173f2b48ac33ee099a26dc840d0"
 libgfortran_version = "5.0.0"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[LaMEM.download]]
-    sha256 = "b67aeedcb67be961559a4d50b0a4050762cb2ec312fdd1f69874a89c630adfc2"
+    sha256 = "49ad64c788b2c16c89799a399c2ea36773830b27b8250968c80def5d91222db1"
     url = "https://github.com/boriskaus/LaMEM_jll.jl/releases/download/LaMEM-v3.3.0+0/LaMEM.v3.3.0.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
