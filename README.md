@@ -10,7 +10,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `LaMEM_jll.jl` have been built from these sources:
 
-* git repository: https://github.com/UniMainzGeo/LaMEM (revision: `eb306fc4740b07169eefa87469fafcd372db5c41`)
+* git repository: https://github.com/UniMainzGeo/LaMEM (revision: `bb7edede8319087ee59c7bcc2603efb4e465b100` (branch bk/phase-transition-plugin, local test build))
 * files in directory, relative to originating `build_tarballs.jl`: `./bundled`
 
 ## Platforms
